@@ -64,5 +64,17 @@ The default is usually local, but it can be changed to a remote server if needed
 - **Prefect**: For orchestrating and scheduling workflows
 
 
+Prefect Dashboard :
+![image](https://github.com/user-attachments/assets/da02e7e6-7614-4b4e-8780-d4619eff9b82)
+
+
+Flow run in prefect :
+![image](https://github.com/user-attachments/assets/9acef5a5-e51a-439c-a572-d0e5e00bbec8)
+
+
+Monitor experiment in CometML dashboard :
+![image](https://github.com/user-attachments/assets/75648d6b-6ccf-4a84-8e09-6bb1a3b02586)
+
+
 
 
