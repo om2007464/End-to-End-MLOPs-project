@@ -21,8 +21,8 @@ class DataIngestionConfig:
 class DataIngestion:
     def __init__(self):
         self.ingestion_config = DataIngestionConfig()
-        self.mongo_client = MongoClient("mongodb+srv://Spiderman:Spiderman@cluster0.ctt8i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-        self.db = self.mongo_client['Spiderman']
+        self.mongo_client = MongoClient("Add your URL here")
+        self.db = self.mongo_client['Add db name here']
         self.collection = self.db['raw_data']
 
     def InitialDataIngestion(self) -> Tuple[str, str]:
