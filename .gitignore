@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -160,3 +161,55 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+=======
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+venv/
+env/
+*.env
+*.ini
+*.log
+
+# Flask
+instance/
+*.sqlite3
+*.db
+*.db-journal
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# DVC
+.dvc/
+
+# MLflow
+mlruns/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# PyCharm
+.idea/
+
+
+# Anaconda
+*.conda
+*.pkl
+
+# Testing
+test_*/ 
+*.cover
+*.tox
+*.nox
+*.coverage
+*.hypothesis
+>>>>>>> c0a9a56 (commit)

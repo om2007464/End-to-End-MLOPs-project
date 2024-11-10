@@ -1,0 +1,15 @@
+pandas
+scikit-learn
+xgboost
+flask
+mlflow
+comet-ml
+dvc
+prefect
+pymongo
+seaborn
+pytest
+tox
+black
+flake8
+python-dotenv

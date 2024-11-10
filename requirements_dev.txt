@@ -1,0 +1,25 @@
+# pandas
+# scikit-learn
+# numpy 
+# seaborn 
+# flask
+# mlflow==2.2.2
+# dvc 
+
+# # dev requirements 
+
+
+# pytest
+# tox
+# black
+# flake8
+# mypy
+
+pandas
+scikit-learn
+numpy
+seaborn
+Flask
+mlflow
+dvc
+apache-airflow==2.6.3

@@ -1,0 +1,2 @@
+[tool.dagster]
+project_name = "gemstone_price_prediction"
