@@ -68,7 +68,7 @@ class ModelEvaluation:
             model = self._load_model(model_path)
 
             # Initialize MLflow for local tracking
-            mlflow.set_tracking_uri(r"/Users/om/Projects/git p/Gemstone-Price-Prediction/mlruns")  # Set the local directory for tracking
+            mlflow.set_tracking_uri(r"mlruns")  # Set the local directory for tracking
             with mlflow.start_run():
                 # Get predictions from the model
                 predictions = model.predict(X_test)
