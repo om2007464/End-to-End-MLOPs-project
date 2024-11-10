@@ -21,9 +21,9 @@ class ModelTrainer:
         self.ModelTrainerConfig = ModelTrainerConfig()
         # Initialize a Comet experiment (replace "your-api-key" with your actual Comet API key)
         self.experiment = Experiment(
-            api_key="NFoqbqY2egyrudf2Em1C7tLVf",
+            api_key="Add your API key here",
             project_name="gemstone-price-prediction",  # Name of your project
-            workspace="om2007464"  # Your Comet workspace
+            workspace="Add your work space name here "  # Your Comet workspace
         )
 
     # Function to start the model training process
